@@ -1,0 +1,17 @@
+{
+  categorycollection(id:3){
+    name
+    children_count
+    children {
+      id
+      name
+      product_count
+      image
+      children_count
+      children{
+        id
+        name
+      }
+    }
+  }
+}
